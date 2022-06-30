@@ -1,0 +1,32 @@
+#divWeatherMain {
+  display: block;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(8, 7, 42, 1) 75%,
+    rgb(8, 10, 63) 100%
+  );
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.weatherWidgetRow {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+.parentContainer{
+    display: flex;justify-content: center;align-items: center;margin-top: 50px;
+}
+.ng-select {
+  background-color: white;
+  color: black;
+}
+::ng-deep .ng-dropdown-panel {
+  background-color: white !important;
+}
